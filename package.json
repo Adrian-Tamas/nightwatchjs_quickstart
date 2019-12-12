@@ -1,0 +1,22 @@
+{
+  "name": "jstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -c ./nightwatch.test.conf.js",
+    "dev": "nightwatch -c ./nightwatch.dev.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^78.0.1",
+    "faker": "^4.1.0",
+    "geckodriver": "^1.19.1",
+    "mocha": "^6.2.2",
+    "nightwatch": "^1.3.2",
+    "request": "^2.88.0",
+    "selenium-server": "^3.141.59"
+  }
+}
